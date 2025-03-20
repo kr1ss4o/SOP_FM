@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0hlQzE0bca0=",
+  "dgSpecHash": "ygIKj71uSHs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\z kris\\SpotifyTracker\\SpotifyTracker\\SpotifyTracker.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\SpotifyTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
