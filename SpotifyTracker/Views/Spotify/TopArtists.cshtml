@@ -1,0 +1,25 @@
+﻿@model List<SpotifyTracker.Services.Artist>?
+
+<h2>Your Top 5 Most Played Artists</h2>
+
+@if (Model != null && Model.Any())
+{
+    <ul>
+        @foreach (var artist in Model)
+        {
+            <li>
+                <h3>@artist.Name</h3>
+                @if (artist.Images != null && artist.Images.Any())
+                {
+                    <img src="@artist.Images[0].Url" alt="@artist.Name" width="200" />
+                }
+                <br />
+                <a href="@artist.ExternalUrls?.Spotify" target="_blank">View on Spotify</a>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No data available.</p>
+}
