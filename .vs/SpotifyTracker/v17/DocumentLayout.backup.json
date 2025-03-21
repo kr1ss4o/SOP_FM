@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|c:\\users\\user\\documents\\z kris\\sop_fm\\spotifytracker\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|solutionrelative:spotifytracker\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|c:\\users\\user\\documents\\z kris\\sop_fm\\spotifytracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|solutionrelative:spotifytracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|c:\\users\\user\\documents\\z kris\\sop_fm\\spotifytracker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|solutionrelative:spotifytracker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|c:\\users\\user\\documents\\z kris\\sop_fm\\spotifytracker\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|solutionrelative:spotifytracker\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|c:\\users\\user\\documents\\z kris\\sop_fm\\spotifytracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|solutionrelative:spotifytracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|c:\\users\\user\\documents\\z kris\\sop_fm\\spotifytracker\\views\\spotify\\topartists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BC78505-4C56-4286-922A-53DE7FEA20B9}|SpotifyTracker\\SpotifyTracker.csproj|solutionrelative:spotifytracker\\views\\spotify\\topartists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,46 +29,72 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 281,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "home.css",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\home.css",
-              "RelativeDocumentMoniker": "SpotifyTracker\\wwwroot\\css\\home.css",
-              "ToolTip": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\home.css",
-              "RelativeToolTip": "SpotifyTracker\\wwwroot\\css\\home.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-20T09:18:27.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SpotifyTracker\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SpotifyTracker\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T09:17:53.748Z",
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "SpotifyTracker\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "SpotifyTracker\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-21T10:54:43.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "TopArtists.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\Views\\Spotify\\TopArtists.cshtml",
+              "RelativeDocumentMoniker": "SpotifyTracker\\Views\\Spotify\\TopArtists.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\Views\\Spotify\\TopArtists.cshtml",
+              "RelativeToolTip": "SpotifyTracker\\Views\\Spotify\\TopArtists.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T09:54:38.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SpotifyTracker\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SpotifyTracker\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T18:09:19.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\Program.cs",
               "RelativeDocumentMoniker": "SpotifyTracker\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\Program.cs",
               "RelativeToolTip": "SpotifyTracker\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T09:16:35.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SpotifyTracker\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\z kris\\SOP_FM\\SpotifyTracker\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SpotifyTracker\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T09:17:53.748Z",
               "EditorCaption": ""
             }
           ]
