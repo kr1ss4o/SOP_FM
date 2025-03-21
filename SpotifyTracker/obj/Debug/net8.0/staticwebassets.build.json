@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lqiitRe1veV9gHTUPWTVFc8UiYFrPCSoAriSDnuX/2c=",
+  "Hash": "2y/vGumG0qooRv/fuhZC4EBArSra4yDJhGn7JLix380=",
   "Source": "SpotifyTracker",
   "BasePath": "_content/SpotifyTracker",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SpotifyTracker.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\home.css",
+      "Identity": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\login.css",
       "SourceId": "SpotifyTracker",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\",
       "BasePath": "_content/SpotifyTracker",
-      "RelativePath": "css/home.css",
+      "RelativePath": "css/login.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,7 +71,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\home.css"
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\site.css",
@@ -1212,6 +1212,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\media\\login-banner.jpg",
+      "SourceId": "SpotifyTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\",
+      "BasePath": "_content/SpotifyTracker",
+      "RelativePath": "media/login-banner.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\login-banner.jpg"
     }
   ]
 }

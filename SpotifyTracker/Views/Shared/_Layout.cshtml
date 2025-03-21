@@ -11,26 +11,23 @@
     <link rel="stylesheet" href="~/css/login.css" />
 </head>
 <body>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-        @if (User.Identity.IsAuthenticated)
-        {
-            <p>Welcome, @User.Identity.Name!</p>
-            <a asp-controller="Auth" asp-action="Logout">Logout</a>
-        }
-        else
-        {
-            <a asp-controller="Auth" asp-action="Login">Login with Spotify</a>
-        }
-        @if (User.Identity.IsAuthenticated)
-        {
-            <a asp-controller="Spotify" asp-action="TopArtists">View My Top Artists</a>
-        }
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <p>Welcome, @User.Identity.Name!</p>
+        <a asp-controller="Auth" asp-action="Logout">Logout</a>
+    }
+    else
+    {
+        <a asp-controller="Auth" asp-action="Login">Login with Spotify</a>
+    }
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a asp-controller="Spotify" asp-action="TopArtists">View My Top Artists</a>
+    }
 
-
-    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

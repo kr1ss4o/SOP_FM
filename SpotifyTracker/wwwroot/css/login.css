@@ -1,3 +1,64 @@
-﻿body {
+﻿div.login {
+    width: 100%;
+    height: 100%;
 
+    background-image: url(/media/login-banner.jpg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 150px 440px;
+}
+div.login-hero {
+    background: rgba(18, 18, 18, 0.95);
+
+    width: 508px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+    padding: 150px 30px;
+    border-radius: 25px;
+}
+h1.title {
+    font-size:32px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+div.hero-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+img.spotify-logo {
+    width: 54px;
+    height: 54px;
+}
+h1.sop-logo {
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+div.hero-button {
+    background-color: #1DB954;
+
+    width: 206px;
+    height: 68px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 200px;
+}
+h1.button-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
 }
