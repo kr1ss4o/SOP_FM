@@ -6,12 +6,29 @@
     <div class="login-hero">
         <h1 class="title">Your valuable statistics in one place.</h1>
         <div class="hero-icons">
-            <img class="spotify-logo"/>
-            <h1 style="font-size: 32px font-weight: 500; color: white">x</h1>
+            <img class="spotify-logo" src="~/media/spotify.png"/>
+            <h1 style="font-family: Inter, sans-serif; font-size: 32px; font-weight: 700; color: white;">
+                x
+            </h1>
             <h1 class="sop-logo">SOP</h1>
         </div>
-        <div class="hero-button">
-            <h1 class="button-title">Login</h1>
-        </div>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <p>Welcome, @User.Identity.Name!</p>
+            <a asp-controller="Auth" asp-action="Logout">Logout</a>
+        }
+        else
+        {
+            <a asp-controller="Auth" asp-action="Login">
+                <div class="hero-button">
+                    <h1 class="button-title">Login</h1>
+                </div>
+            </a>
+        }
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a asp-controller="Spotify" asp-action="TopArtists">View My Top Artists</a>
+        }
+        
     </div>
 </div>

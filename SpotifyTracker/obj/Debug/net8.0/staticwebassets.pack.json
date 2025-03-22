@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -251,6 +247,10 @@
     {
       "Id": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\media\\login-banner.jpg",
       "PackagePath": "staticwebassets\\media\\login-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\media\\spotify.png",
+      "PackagePath": "staticwebassets\\media\\spotify.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SpotifyTracker.Microsoft.AspNetCore.StaticWebAssets.props",
