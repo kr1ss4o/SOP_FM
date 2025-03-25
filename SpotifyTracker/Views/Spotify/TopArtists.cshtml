@@ -1,23 +1,30 @@
-﻿@model List<SpotifyTracker.Services.Artist>?
+﻿@{
+    ViewData["Title"] = "SOPFM Artists";
+}
+@model List<SpotifyTracker.Services.Artist>?
 
 <h2>Your Top 5 Most Played Artists</h2>
 
 @if (Model != null && Model.Any())
 {
-    <ul>
-        @foreach (var artist in Model)
-        {
-            <li>
-                <h3>@artist.Name</h3>
-                @if (artist.Images != null && artist.Images.Any())
-                {
-                    <img src="@artist.Images[0].Url" alt="@artist.Name" width="200" />
-                }
-                <br />
-                <a href="@artist.ExternalUrls?.Spotify" target="_blank">View on Spotify</a>
-            </li>
-        }
-    </ul>
+    <div class="artists">
+        <h1 class="artists-heading">Your Top 5 artists</h1>
+        <div class="artists-hero">
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                var artist = Model[i];
+                <div class="artists-cont">
+                    @if (artist.Images != null && artist.Images.Any())
+                    {
+                        <img src="@artist.Images[0].Url" alt="@artist.Name" class="artists-image" />
+                    }
+                    <h2 class="artists-name">@(i + 1). @artist.Name</h2>
+                    <a href="@artist.ExternalUrls?.Spotify" target="_blank">View on Spotify</a>
+                </div>
+            }
+        </div>
+
+    </div>
 }
 else
 {

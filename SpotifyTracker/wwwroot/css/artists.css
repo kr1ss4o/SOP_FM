@@ -1,0 +1,47 @@
+﻿div.artists {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+}
+h1.artists-heading {
+    font-size: 50px;
+    font-family: Inter, sans-serif;
+    font-weight: 800;
+}
+div.artists-hero {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: stretch;
+
+    gap: 50px;
+}
+div.artists-cont {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+img.artists-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+}
+h2.artists-name {
+    font-size: 50px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}

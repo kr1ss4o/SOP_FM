@@ -28,5 +28,9 @@ namespace SpotifyTracker.Controllers
 
             return View(artists);
         }
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
     }
 }

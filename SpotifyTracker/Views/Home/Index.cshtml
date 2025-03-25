@@ -14,8 +14,11 @@
         </div>
         @if (User.Identity.IsAuthenticated)
         {
-            <p>Welcome, @User.Identity.Name!</p>
-            <a asp-controller="Auth" asp-action="Logout">Logout</a>
+            <a asp-controller="Auth" asp-action="Logout">
+                <div class="hero-button">
+                    <h1 class="button-title">Logout</h1>
+                </div>
+            </a>
         }
         else
         {
@@ -27,7 +30,11 @@
         }
         @if (User.Identity.IsAuthenticated)
         {
-            <a asp-controller="Spotify" asp-action="TopArtists">View My Top Artists</a>
+            <a asp-controller="Spotify" asp-action="TopArtists">
+                <div class="hero-button">
+                    <h1 class="button-title">Dashboard</h1>
+                </div>
+            </a>
         }
         
     </div>
