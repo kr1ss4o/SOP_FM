@@ -2,9 +2,17 @@
     ViewData["Title"] = "SOPFM Artists";
 }
 @model List<SpotifyTracker.Services.Artist>?
-
-<h2>Your Top 5 Most Played Artists</h2>
-
+<nav class="nav-hero fixed-top">
+    <a asp-controller="Auth" asp-action="Login">
+        <img src="~/media/home.png" class="nav-icon" />
+    </a>
+    <a asp-contoller="Spotify" asp-action="TopArtists">
+        <img src="~/media/artists.png" class="nav-icon" />
+    </a>
+    <a asp-controller="Auth" asp-action="Logout">
+        <img src="~/media/logout.png" class="nav-icon" />
+    </a>
+</nav>
 @if (Model != null && Model.Any())
 {
     <div class="artists">
@@ -19,7 +27,7 @@
                         <img src="@artist.Images[0].Url" alt="@artist.Name" class="artists-image" />
                     }
                     <h2 class="artists-name">@(i + 1). @artist.Name</h2>
-                    <a href="@artist.ExternalUrls?.Spotify" target="_blank">View on Spotify</a>
+                    <a href="@artist.ExternalUrls?.Spotify" target="_blank" class="artists-redirect">View on Spotify</a>
                 </div>
             }
         </div>

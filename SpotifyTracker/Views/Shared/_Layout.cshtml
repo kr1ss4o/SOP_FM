@@ -11,13 +11,15 @@
     <!-- CSS linkings -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/SpotifyTracker.styles.css" asp-append-version="true" />
+    <!-- Common css -->
+    <link rel="stylesheet" href="~/css/default.css"/>
     <!-- Login.css -->
     <link rel="stylesheet" href="~/css/login.css" />
     <!-- TopArtists.css -->
     <link rel="stylesheet" href="~/css/artists.css"/>
 </head>
 <body>
-    <main role="main" style="height: 100%">
+    <main role="main" class="main-style"style="height:  100dvh !important;">
         @RenderBody()
     </main>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
