@@ -24,17 +24,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o93jae47re"},{"Name":"integrity","Value":"sha256-TNnFnxcMsORqnUxbAScI2VPQXag2F\u002BughoEIZWjjRek="},{"Name":"label","Value":"_content/SpotifyTracker/css/default.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"287"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022TNnFnxcMsORqnUxbAScI2VPQXag2F\u002BughoEIZWjjRek=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 09:26:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/SpotifyTracker/css/login.5egla3utqn.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\login.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5egla3utqn"},{"Name":"integrity","Value":"sha256-PZxmg85kX5t/F\u002Bz7Hrxu9sxiy5ePYMc3vYqwaiYjH\u002BM="},{"Name":"label","Value":"_content/SpotifyTracker/css/login.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1417"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PZxmg85kX5t/F\u002Bz7Hrxu9sxiy5ePYMc3vYqwaiYjH\u002BM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 09:31:48 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SpotifyTracker/css/login.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\login.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PZxmg85kX5t/F\u002Bz7Hrxu9sxiy5ePYMc3vYqwaiYjH\u002BM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1417"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PZxmg85kX5t/F\u002Bz7Hrxu9sxiy5ePYMc3vYqwaiYjH\u002BM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 09:31:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FYJirhAYe8LKZYAjN42MZGrNWZf4qbPy\u002BEtzc2l/Rwo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1519"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FYJirhAYe8LKZYAjN42MZGrNWZf4qbPy\u002BEtzc2l/Rwo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 09:35:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SpotifyTracker/css/login.fzf48vjlu3.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\login.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fzf48vjlu3"},{"Name":"integrity","Value":"sha256-FYJirhAYe8LKZYAjN42MZGrNWZf4qbPy\u002BEtzc2l/Rwo="},{"Name":"label","Value":"_content/SpotifyTracker/css/login.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1519"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FYJirhAYe8LKZYAjN42MZGrNWZf4qbPy\u002BEtzc2l/Rwo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 09:35:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SpotifyTracker/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yfqiDa+WL1YHM59KpsKJcsXSodgDaunwrZmgDIeU7Ug=",
+  "Hash": "BJYF/vSgxNKtjZv97krVfliJ1JzU6FisRpeKbXoeimI=",
   "Source": "SpotifyTracker",
   "BasePath": "_content/SpotifyTracker",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5egla3utqn",
-      "Integrity": "PZxmg85kX5t/F+z7Hrxu9sxiy5ePYMc3vYqwaiYjH+M=",
+      "Fingerprint": "fzf48vjlu3",
+      "Integrity": "FYJirhAYe8LKZYAjN42MZGrNWZf4qbPy+Etzc2l/Rwo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
@@ -1632,51 +1632,6 @@
       ]
     },
     {
-      "Route": "css/login.5egla3utqn.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\login.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1417"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PZxmg85kX5t/F+z7Hrxu9sxiy5ePYMc3vYqwaiYjH+M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 09:31:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5egla3utqn"
-        },
-        {
-          "Name": "label",
-          "Value": "css/login.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PZxmg85kX5t/F+z7Hrxu9sxiy5ePYMc3vYqwaiYjH+M="
-        }
-      ]
-    },
-    {
       "Route": "css/login.css",
       "AssetFile": "C:\\Users\\User\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\login.css",
       "Selectors": [],
@@ -1687,7 +1642,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1417"
+          "Value": "1519"
         },
         {
           "Name": "Content-Type",
@@ -1695,11 +1650,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PZxmg85kX5t/F+z7Hrxu9sxiy5ePYMc3vYqwaiYjH+M=\""
+          "Value": "\"FYJirhAYe8LKZYAjN42MZGrNWZf4qbPy+Etzc2l/Rwo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 09:31:48 GMT"
+          "Value": "Wed, 26 Mar 2025 09:35:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1709,7 +1664,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PZxmg85kX5t/F+z7Hrxu9sxiy5ePYMc3vYqwaiYjH+M="
+          "Value": "sha256-FYJirhAYe8LKZYAjN42MZGrNWZf4qbPy+Etzc2l/Rwo="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.fzf48vjlu3.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FYJirhAYe8LKZYAjN42MZGrNWZf4qbPy+Etzc2l/Rwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fzf48vjlu3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FYJirhAYe8LKZYAjN42MZGrNWZf4qbPy+Etzc2l/Rwo="
         }
       ]
     },
