@@ -1,6 +1,5 @@
 ﻿div.artists {
     width: 100%;
-    height: 100%;
 
     background-color: #1d1d1d;
 
@@ -11,7 +10,7 @@
     align-items: center;
 
     gap: 40px;
-    padding-top: 120px;
+    padding: 120px 30px;
 }
 h1.artists-heading {
     font-size: 50px;
