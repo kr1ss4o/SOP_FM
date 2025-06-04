@@ -12,7 +12,10 @@
     gap: 30px;
     padding: 0 50px;
 }
-img.nav-icon {
-    width: 30px;
-    height: 30px;
+a.nav-header {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+
+    color:white;
 }

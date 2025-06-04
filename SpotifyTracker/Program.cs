@@ -28,6 +28,9 @@ builder.Services.AddAuthentication(options =>
     options.UserInformationEndpoint = "https://api.spotify.com/v1/me";
 
     options.Scope.Add("user-top-read");
+    options.Scope.Add("user-read-recently-played");
+    options.Scope.Add("playlist-read-private");
+    options.Scope.Add("playlist-read-collaborative");
 
     options.SaveTokens = true;
 

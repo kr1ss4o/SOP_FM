@@ -1,26 +1,40 @@
 ﻿@{
-    ViewData["Title"] = "SOPFM Artists";
+    var timeRange = Context.Request.Query["timeRange"].ToString();
+    if (string.IsNullOrEmpty(timeRange))
+    {
+        timeRange = "medium_term";
+    }
 }
-@model List<SpotifyTracker.Services.Artist>?
+@model SpotifyTracker.Models.SpotifyViewModel
 <nav class="nav-hero fixed-top">
-    <a asp-controller="Auth" asp-action="Login">
-        <img src="~/media/home.png" class="nav-icon" />
+    <a asp-controller="Auth" asp-action="Login" class="nav-header">
+        Home
     </a>
-    <a asp-contoller="Spotify" asp-action="TopArtists">
-        <img src="~/media/artists.png" class="nav-icon" />
+    <a asp-contoller="Spotify" asp-action="TopArtists" class="nav-header">
+        Rankings
     </a>
-    <a asp-controller="Auth" asp-action="Logout">
-        <img src="~/media/logout.png" class="nav-icon" />
+    <a asp-controller="Auth" asp-action="Logout" class="nav-header" style="color:darkred">
+        Logout
     </a>
 </nav>
-@if (Model != null && Model.Any())
+
+<form method="get" asp-controller="Spotify" asp-action="TopArtists" style="margin-top: 100px">
+    <label for="timeRange">Select Time Range:</label>
+    <select name="timeRange" id="timeRange" onchange="this.form.submit()">
+        <option value="short_term" selected="@(timeRange == "short_term")">Last Month</option>
+        <option value="medium_term" selected="@(timeRange == "medium_term")">Last 6 Months</option>
+        <option value="long_term" selected="@(timeRange == "long_term")">All Time</option>
+    </select>
+</form>
+
+@if (Model.TopArtists != null && Model.TopArtists.Any())
 {
     <div class="artists">
-        <h1 class="artists-heading">Your Top 5 artists</h1>
+        <h1 class="artists-heading">Your Top 5 Artists</h1>
         <div class="artists-hero">
-            @for (int i = 0; i < Model.Count; i++)
+            @for (int i = 0; i < Model.TopArtists.Count; i++)
             {
-                var artist = Model[i];
+                var artist = Model.TopArtists[i];
                 <div class="artists-cont">
                     @if (artist.Images != null && artist.Images.Any())
                     {
@@ -31,10 +45,38 @@
                 </div>
             }
         </div>
-
     </div>
 }
-else
+@if (Model.TopGenres != null && Model.TopGenres.Any())
 {
-    <p>No data available.</p>
+    <div class="genres">
+        <h1 class="genres-heading">Your Top 5 Genres</h1>
+        <ul class="genres-list">
+            @foreach (var genre in Model.TopGenres)
+            {
+                <li class="genre-item">@genre</li>
+            }
+        </ul>
+    </div>
+}
+@if (Model.TopTracks != null && Model.TopTracks.Any())
+{
+    <div class="tracks">
+        <h1 class="tracks-heading">Your Top 5 Songs</h1>
+        <div class="tracks-hero">
+            @for (int i = 0; i < Model.TopTracks.Count; i++)
+            {
+                var track = Model.TopTracks[i];
+                <div class="tracks-cont">
+                    @if (track.Album?.Images != null && track.Album.Images.Any())
+                    {
+                        <img src="@track.Album.Images[0].Url" alt="@track.Name" class="tracks-image" />
+                    }
+                    <h2 class="tracks-name">@(i + 1). @track.Name</h2>
+                    <p class="tracks-artist">By @string.Join(", ", track.Artists.Select(a => a.Name))</p>
+                    <a href="@track.ExternalUrls?.Spotify" target="_blank" class="tracks-redirect">Listen on Spotify</a>
+                </div>
+            }
+        </div>
+    </div>
 }

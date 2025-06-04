@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using SpotifyTracker.Models;
+using SpotifyTracker.Services;
 using SpotifyTracker.Services;
 
 namespace SpotifyTracker.Controllers
@@ -15,7 +17,7 @@ namespace SpotifyTracker.Controllers
             _spotifyService = spotifyService;
         }
 
-        public async Task<IActionResult> TopArtists()
+        public async Task<IActionResult> TopArtists(string timeRange = "medium_term")
         {
             var accessToken = await HttpContext.GetTokenAsync("access_token");
 
@@ -24,9 +26,18 @@ namespace SpotifyTracker.Controllers
                 return RedirectToAction("Login", "Auth");
             }
 
-            var artists = await _spotifyService.GetTopArtistsAsync(accessToken);
+            var topArtists = await _spotifyService.GetTopArtistsAsync(accessToken, timeRange);
+            var topGenres = await _spotifyService.GetTopGenresAsync(accessToken, timeRange);
+            var topTracks = await _spotifyService.GetTopTracksAsync(accessToken, timeRange);
 
-            return View(artists);
+            var viewModel = new SpotifyViewModel
+            {
+                TopArtists = topArtists,
+                TopGenres = topGenres,
+                TopTracks = topTracks
+            };
+
+            return View(viewModel);
         }
         public IActionResult Dashboard()
         {
