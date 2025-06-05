@@ -28,6 +28,8 @@
     </select>
 </form>
 
+<!-- Artists -->
+
 @if (Model.TopArtists != null && Model.TopArtists.Any())
 {
     <div class="artists">
@@ -48,20 +50,21 @@
         </div>
     </div>
 }
+
+<!-- Genres -->
+
 @if (Model.TopGenres != null && Model.TopGenres.Any())
 {
-    <div class="genres">
-        <h1 class="genres-heading">Your Top 5 Genres</h1>
-        <ul class="genres-list">
-            @foreach (var genre in Model.TopGenres)
-            {
-                <li class="genre-item">@genre</li>
-            }
-        </ul>
-    </div>
+        <div id="bubbleContainer" style="position: relative; width: 400px; height: 400px; border-radius: 20px; background: #121212; margin: 40px auto; overflow: hidden;"></div>
+
+        <script>
+            window.topGenres = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.TopGenres));
+        </script>
+
+        <script src="~/js/diagram.js"></script>
 }
 
-<!---->
+<!-- Songs -->
 
 @if (Model.TopTracks != null && Model.TopTracks.Any())
 {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8g95QE1UzuNXyXtw7E+fGLh2IyxPM+2HsrwJyco2mL0=",
+  "Hash": "S5/zdWmgxO1ML0E1eivHAf6gG3MNdsbFzQKm4QYZcpk=",
   "Source": "SpotifyTracker",
   "BasePath": "_content/SpotifyTracker",
   "Mode": "Default",
@@ -169,12 +169,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\SOP_FM\\SpotifyTracker\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\SOP_FM\\SpotifyTracker\\wwwroot\\js\\animation.js",
       "SourceId": "SpotifyTracker",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\SOP_FM\\SpotifyTracker\\wwwroot\\",
       "BasePath": "_content/SpotifyTracker",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/animation.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,7 +185,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\js\\animation.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\SOP_FM\\SpotifyTracker\\wwwroot\\js\\diagram.js",
+      "SourceId": "SpotifyTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\SOP_FM\\SpotifyTracker\\wwwroot\\",
+      "BasePath": "_content/SpotifyTracker",
+      "RelativePath": "js/diagram.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\diagram.js"
     },
     {
       "Identity": "C:\\Users\\User\\Documents\\GitHub\\SOP_FM\\SpotifyTracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
