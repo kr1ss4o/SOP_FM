@@ -31,6 +31,7 @@ builder.Services.AddAuthentication(options =>
     options.Scope.Add("user-read-recently-played");
     options.Scope.Add("playlist-read-private");
     options.Scope.Add("playlist-read-collaborative");
+    options.Scope.Add("user-follow-read");
 
     options.SaveTokens = true;
 

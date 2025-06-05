@@ -6,6 +6,7 @@
     }
 }
 @model SpotifyTracker.Models.SpotifyViewModel
+
 <nav class="nav-hero fixed-top">
     <a asp-controller="Auth" asp-action="Login" class="nav-header">
         Home
@@ -59,6 +60,9 @@
         </ul>
     </div>
 }
+
+<!---->
+
 @if (Model.TopTracks != null && Model.TopTracks.Any())
 {
     <div class="tracks">

@@ -121,4 +121,5 @@ namespace SpotifyTracker.Services
         [JsonPropertyName("images")]
         public List<Image>? Images { get; set; }
     }
+
 }
