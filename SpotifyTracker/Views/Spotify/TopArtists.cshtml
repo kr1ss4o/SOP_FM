@@ -65,22 +65,27 @@
 
 @if (Model.TopTracks != null && Model.TopTracks.Any())
 {
-    <div class="tracks">
-        <h1 class="tracks-heading">Your Top 5 Songs</h1>
-        <div class="tracks-hero">
-            @for (int i = 0; i < Model.TopTracks.Count; i++)
-            {
-                var track = Model.TopTracks[i];
-                <div class="tracks-cont">
-                    @if (track.Album?.Images != null && track.Album.Images.Any())
-                    {
-                        <img src="@track.Album.Images[0].Url" alt="@track.Name" class="tracks-image" />
-                    }
-                    <h2 class="tracks-name">@(i + 1). @track.Name</h2>
-                    <p class="tracks-artist">By @string.Join(", ", track.Artists.Select(a => a.Name))</p>
-                    <a href="@track.ExternalUrls?.Spotify" target="_blank" class="tracks-redirect">Listen on Spotify</a>
+    @for (int i = 0; i < Model.TopTracks.Count; i++)
+    {
+        var track = Model.TopTracks[i];
+        var isOdd = i % 2 == 1;
+        var songClass = isOdd ? "song-reverse song" : "song";
+        var heroClass = isOdd ? "song-hero-reverse song-hero" : "song-hero";
+        var descClass = isOdd ? "song-desc-reverse song-desc" : "song-desc";
+        var textClass = isOdd ? "text-reverse" : "";
+
+            <div class="@songClass">
+                <div class="@heroClass">
+                @if (track.Album?.Images != null && track.Album.Images.Any())
+                {
+                            <img src="@track.Album.Images[0].Url" alt="@track.Name" class="song-icon" />
+                }   
+                    <div class="@descClass">
+                        <h1 class="song-title text-reverse">@(i + 1). @track.Name</h1>
+                        <h1 class="song-artist text-reverse">By @string.Join(", ", track.Artists.Select(a => a.Name))</h1>
+                        <a href="@track.ExternalUrls?.Spotify" target="_blank" class="song-listen @textClass">Listen on Spotify</a>
+                    </div>
                 </div>
-            }
-        </div>
-    </div>
+            </div>
+    }
 }
