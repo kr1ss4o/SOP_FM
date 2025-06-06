@@ -9,7 +9,7 @@ div.login {
     align-items: center;
     padding: 150px 440px;
 
-    background-image: url(/media/login-banner.jpg);
+    background-image: url(/media/banners/login-banner.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

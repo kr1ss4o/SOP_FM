@@ -12,14 +12,14 @@
         Home
     </a>
     <a asp-contoller="Spotify" asp-action="TopArtists" class="nav-header">
-        Rankings
+        Dashboard
     </a>
-    <a asp-controller="Auth" asp-action="Logout" class="nav-header" style="color:darkred">
+    <a asp-controller="Auth" asp-action="Logout" class="nav-header text-danger">
         Logout
     </a>
 </nav>
 
-<form method="get" asp-controller="Spotify" asp-action="TopArtists" style="margin-top: 100px">
+<form method="get" asp-controller="Spotify" asp-action="TopArtists" style="margin-top:100px">
     <label for="timeRange">Select Time Range:</label>
     <select name="timeRange" id="timeRange" onchange="this.form.submit()">
         <option value="short_term" selected="@(timeRange == "short_term")">Last Month</option>
@@ -29,6 +29,13 @@
 </form>
 
 <!-- Artists -->
+<div class="banner artists-banner">
+    <div class="banners-hero">
+        <h1 class="banner-title-1">YOU ARE ONE HELL OF A FOLLOWER</h1>
+        <h1 class="banner-title-2">Artists following</h1>
+        <h1 class="banner-title-3">57</h1>
+    </div>
+</div>
 
 @if (Model.TopArtists != null && Model.TopArtists.Any())
 {
@@ -52,6 +59,13 @@
 }
 
 <!-- Genres -->
+    <div class="banner genres-banner">
+    <div class="banners-hero">
+        <h1 class="banner-title-1 text-black">THE GENRES</h1>
+        <h1 class="banner-title-2 text-black">DEFINE* WHO</h1>
+        <h1 class="banner-title-3 text-black">"YOU ARE"</h1>
+    </div>
+</div>
 
 @if (Model.TopGenres != null && Model.TopGenres.Any())
 {
@@ -65,6 +79,15 @@
 }
 
 <!-- Songs -->
+    <div class="banner songs-banner">
+    <div class="banners-hero flex-row">
+        <div class="songs-heading-cont">
+            <h1 class="banner-title-1 text-start">SEE WHAT</h1>
+            <h1 class="banner-title-2 text-start">YOU'VE BEEN</h1>
+        </div>
+        <h1 class="banner-title-3 text-end">LISTENING TO</h1>
+    </div>
+</div>
 
 @if (Model.TopTracks != null && Model.TopTracks.Any())
 {
@@ -85,7 +108,7 @@
                 }   
                     <div class="@descClass">
                         <h1 class="song-title text-reverse">@(i + 1). @track.Name</h1>
-                        <h1 class="song-artist text-reverse">By @string.Join(", ", track.Artists.Select(a => a.Name))</h1>
+                        <h1 class="song-artist text-reverse">by @string.Join(", ", track.Artists.Select(a => a.Name))</h1>
                         <a href="@track.ExternalUrls?.Spotify" target="_blank" class="song-listen @textClass">Listen on Spotify</a>
                     </div>
                 </div>
