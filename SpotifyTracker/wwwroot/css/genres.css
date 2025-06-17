@@ -1,18 +1,51 @@
-﻿div.genres {
-
-}
+﻿/* Containers */
 div.genres-hero {
-
+    height: 100dvh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
 }
-div.genres-desc {
-
+#bubbleContainer {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    background: #121212;
+    overflow: hidden;
 }
-h1.genres-heading {
 
+/* Titles and more */
+#genreList {
+    color: white;
+    font-family: Inter, sans-serif;
 }
-div.genres-cont {
-
+h2.genres-title {
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Inter, sans-serif
 }
-h1.genres-title {
-
+#genreItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li.genre-item {
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+@media only screen and (max-width: 1000px) {
+    div.genres-hero {
+        flex-direction: column;
+        padding: 60px 20px;
+        height: auto;
+    }
+    li.genre-item {
+        text-align: center;
+    }
 }

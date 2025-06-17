@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SpotifyTracker.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\animations.css",
+      "PackagePath": "staticwebassets\\css\\animations.css"
+    },
+    {
       "Id": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\css\\artists.css",
       "PackagePath": "staticwebassets\\css\\artists.css"
     },
@@ -33,8 +37,8 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\js\\animation.js",
-      "PackagePath": "staticwebassets\\js\\animation.js"
+      "Id": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\js\\animations.js",
+      "PackagePath": "staticwebassets\\js\\animations.js"
     },
     {
       "Id": "C:\\Users\\krist\\OneDrive\\Desktop\\SOP_FM\\SpotifyTracker\\wwwroot\\js\\diagram.js",

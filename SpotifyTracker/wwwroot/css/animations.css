@@ -1,0 +1,46 @@
+﻿/* Fade-In from left */
+body {
+    overflow-x: hidden;
+}
+.hidden-left {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show-left {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* Fade-In from right */
+
+.hidden-right {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.show-right {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* Fade-In from bottom */
+
+.hidden-bottom {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(50px); /* 50px Lower */
+    transition: all 1.5s;
+}
+
+.show-bottom {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}

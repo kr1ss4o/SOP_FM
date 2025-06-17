@@ -1,16 +1,19 @@
-﻿nav.nav-hero{
+﻿nav.nav-hero {
     width: 100%;
     height: 70px;
+    background-color: #0d0d0d;
 
-    background-color: black;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 0 50px;
+}
+div.buttons-cont {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-self: center;
-
     gap: 30px;
-    padding: 0 50px;
 }
 a.nav-header {
     font-size: 15px;
@@ -21,3 +24,69 @@ a.nav-header {
 }
 
 /* Fixed Date Select */
+
+select {
+    background-color: black;
+
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+
+    border: none;
+    outline: none;
+    
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* SOP and logo */
+
+img.nav-logo {
+    width: 24px;
+    height: 24px;
+}
+h4.x {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+}
+h1.nav-sop {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    margin: 0;
+}
+
+/* Hovers and etc. */
+
+a.nav-header:hover {
+    text-decoration: underline !important;
+}
+
+/* Scrollbar styling for WebKit browsers */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a; /* dark gray/black background */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333; /* darker thumb */
+    border-radius: 10px;
+    border: 2px solid #1a1a1a; /* optional: border around thumb */
+}
+
+    /* Optional: scrollbar hover effect */
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+
+/* Firefox scrollbar styling */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #333 #1a1a1a;
+}

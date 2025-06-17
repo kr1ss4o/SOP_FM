@@ -78,3 +78,9 @@ div.hero-button:hover {
     background-color: #177539;
     transition: ease-in-out 0.25s;
 }
+
+@media only screen and (max-width: 1385px) {
+    div.login {
+        padding: 150px 50px;
+    }
+}
