@@ -1,4 +1,6 @@
-﻿nav.nav-hero {
+﻿/* NAV-BAR */
+
+nav.nav-hero {
     width: 100%;
     height: 70px;
     background-color: #0d0d0d;
@@ -21,6 +23,31 @@ a.nav-header {
     font-family: Inter, sans-serif;
 
     color:white;
+}
+
+/* FOOTER */
+
+footer.footer-hero {
+    width: 100%;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 100px;
+}
+div.footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+h6.footer-headers {
+    color: white !important;
+    font-family: Inter, sans-serif;
+    font-weight: 300;
 }
 
 /* Fixed Date Select */
@@ -59,7 +86,7 @@ h1.nav-sop {
     margin: 0;
 }
 
-/* Hovers and etc. */
+/* Hovers and Scrollbar design */
 
 a.nav-header:hover {
     text-decoration: underline !important;
@@ -80,10 +107,10 @@ a.nav-header:hover {
     border: 2px solid #1a1a1a; /* optional: border around thumb */
 }
 
-    /* Optional: scrollbar hover effect */
-    ::-webkit-scrollbar-thumb:hover {
+/* Optional: scrollbar hover effect */
+::-webkit-scrollbar-thumb:hover {
         background-color: #555;
-    }
+}
 
 /* Firefox scrollbar styling */
 * {

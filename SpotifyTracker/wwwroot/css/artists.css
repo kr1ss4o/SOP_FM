@@ -53,3 +53,9 @@ h2.artists-name {
 a.artists-redirect {
     color: #1db954;
 }
+
+/* Hovers */
+
+a.artists-redirect:hover {
+    text-decoration: underline !important;
+}
